@@ -96,3 +96,6 @@ p {
         overflow: auto;
     }
     
+ul.workTasks{
+    list-style-type: square;
+}    
