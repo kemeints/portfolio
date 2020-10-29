@@ -126,3 +126,12 @@ ul.workTasks{
     margin-bottom:5px;
 }
 
+#WebProject img:hover{
+    -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
+#WebProject img{
+    transition:transform .2s;
+}
