@@ -99,3 +99,30 @@ p {
 ul.workTasks{
     list-style-type: square;
 }    
+
+#stockPhoto1{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    float:right;
+    margin-right:15px;
+    overflow:auto;
+}
+
+#Education{
+    overflow:auto;
+}
+
+#Skills{
+    overflow:auto;
+}
+#logoUALR{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    float:right;
+    margin-right:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
