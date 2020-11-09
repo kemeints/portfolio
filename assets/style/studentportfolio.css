@@ -69,6 +69,8 @@ p {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    overflow:auto;
+    
 }
 
 .tabcontent {
@@ -96,7 +98,7 @@ p {
         overflow: auto;
     }
     
-ul.workTasks{
+.workTasks, .contactInfo, .skillsList{
     list-style-type: square;
 }    
 
@@ -128,10 +130,17 @@ ul.workTasks{
 
 #WebProject img:hover{
     -ms-transform: scale(2.0); /* IE 9 */
-  -webkit-transform: scale(2.0); /* Safari 3-8 */
-  transform: scale(2.0);
+    -webkit-transform: scale(2.0); /* Safari 3-8 */
+   transform: scale(2.0);
 }
 
 #WebProject img{
     transition:transform .2s;
 }
+
+#Accomplishments img{
+    float:right;
+    clear: right;
+    padding:5px;
+    margin-right: 15px;
+    }

@@ -1,0 +1,266 @@
+/*---------------------Box Sizing--------------------*/
+html{
+    box-sizing:border-box;
+} 
+*,
+*:before,
+*:after{
+    box-sizing:inherit;
+}
+
+body{
+    font-family:'Ubuntu', sans-serif;
+    margin:0px;
+    background-color:rgb(32,82,63);
+    color:#fff;
+}
+
+.container{
+  width:80vw;
+  margin:20px auto;
+  line-height:1.8;
+}
+#header{
+  text-align:center;
+  padding:20px;
+  background-color:rgb(7,23,43);
+  color:yellow;
+  font-size:1.5em;
+  
+}
+#container #header img {
+  width:60%;
+  height:60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  border-radius:10px;
+}
+
+.container img{
+  width:50%;
+  max-width:50%;
+  height:50%;
+  display:block;
+  margin-left:0;
+  margin-right:0;
+  padding:5px;
+  border-radius:10px;
+  }
+
+div.primary nav{
+  max-width:960px;
+  margin:0px auto;
+}
+div.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  padding:0;
+}
+div.primary nav ul li{
+  list-style-type:none;
+  padding:10px;
+}
+div.primary nav a, header.primary nav a:visited{
+  color:rgb(167, 239,6);
+  text-decoration:none;
+  background:rgba(0,0,0,.5);
+  padding: 8px 16px;
+  border-radius:6px;
+  transition:0.3s;
+}
+div.primary nav a:hover{
+  background:rgba(0,0,0,.8);
+}
+
+#time{
+  color:lightblue;
+  padding:20px;
+}
+#content{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+div.container h2, #subsection-7{
+  color:orange;
+  font-size:40px;
+  border-bottom: 2px solid rgb(217,124,76);
+  padding:10px;
+  text-align:center;
+}
+
+.content{
+  color:green;
+  font-size:20px;
+  margin:20px auto;
+}
+ol{
+  background:purple;
+  padding:20px;
+}
+ol li{
+  background:pink;
+  padding:5px;
+  margin-left:35px;
+}
+.row{
+  display:flex;
+  padding:20px;
+  margin:20px 0 0 0;
+  
+  }
+.column{
+  flex:33.33%;
+  padding:5px;
+  }
+.row img{
+  margin: 0 8px;
+  width:auto;
+  height:auto;
+  
+  }
+.bottom-left{
+  font-weight:bold;
+  font-size:20px;
+  padding:5px;
+  color:yellow;
+}
+
+#additional-elements h3{
+  border-left:6px solid purple;
+  padding-left:10px;
+  font-size:30px;
+}
+
+#additional-elements h4{
+  border-left:6px solid purple;
+  padding-left:10px;
+  font-size:20px;
+  color:pink;
+  margin:40px;
+}
+
+#additional-elements table{
+  border:2px solid #ccc;
+  width:100%;
+  border-collapse: collapse;
+  table-layout:fixed;
+  }
+
+#additional-elements table caption{
+  font-size:20px;
+  font-weight:bold;
+  line-height:2em;
+  padding:5px;
+  }
+
+#additional-elements table tr:nth-child(even){
+  background-color:lightblue;
+}
+
+#additional-elements table tr:hover{
+  background-color: orange;
+}
+
+#additional-elements table th{
+  background-color:purple;
+  padding:5px;
+}
+
+#additional-elements table td{
+    padding-left:5px;
+}
+
+#additional-elements ul{
+  list-style-type:none;
+  text-align:center;
+  font-weight:bold;
+  font-size:20px;
+  color:purple;
+}
+
+#additional-elements blockquote{
+  padding: 10px;
+  background-color: rgb(217,124,76);
+  border-left: 5px solid #e1cc89;
+  margin: 40px;
+  text-indent: 23px;
+  }
+
+#stranger blockquote{
+  padding: 10px;
+  background-color: rgb(217,124,76);
+  border-left: 5px solid #e1cc89;
+  margin: 40px;
+  background-image: url(https://i.imgur.com/eik3NEV.jpg?1);
+  background-position: right;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  background-size:contain;
+  }
+
+#additional-elements #stranger cite{
+  display:block;
+  text-align:right;
+  margin-top:10px;
+  font-size:.8em;
+  font-weight:bold;
+}
+
+#additional-elements cite{
+  display:block;
+  text-align:right;
+  margin-top:10px;
+  font-size:.8em;
+  font-weight:bold;
+}
+
+
+#subsection-8{
+  color:yellow;
+  font-size:20px;
+  padding:10px;
+  margin:20px auto;
+  border-left: 6px solid purple;
+
+}
+#terminology{
+  width:80vw;
+  margin:20px auto;
+  color:pink;
+}
+
+dt{
+  font-weight:bold;
+  text-decoration:underline;
+  color:yellow;
+}
+dd{
+  margin:20px;
+}
+
+#navigation{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  padding:0;
+  max-width:960px;
+  margin:0px auto;
+}
+
+#navigation nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  padding:0;
+}
+#navigation nav ul li{
+  list-style-type:none;
+  padding:10px;
+}
+a{
+  color:lightblue;
+  }

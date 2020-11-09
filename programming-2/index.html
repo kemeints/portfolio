@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body onload="handleFormAction()">
+
+<p id="newtab"></p>
+<h2>Katelyn's JavaScript</h2>
+<h3>Enter Borderlands Game Lover</h3>
+<h4>Instructions: Choose your character!</h4>
+
+
+<form target="_blank" action="https://www.w3schools.com/action_page.php" method="get"> 
+
+Choose your character: 
+<input list="characters" name="characterChoice" placeholder="Select from dropdown">
+<datalist id="characters">
+  <option value="Zane - Operative">
+  <option value="Amara - Siren">
+  <option value="Moze - Gunner">
+  <option value="FL4K - Beastmaster">
+</datalist><br><br>
+
+Type you character's name here:
+
+<input type="text" name="characterName" placeholder="The Destroyer of Worlds" autofocus> <br><br>
+What is your favorite weapon type?
+<input list="weapons" name="typeChoice" placeholder="Select from dropdown">
+<datalist id="weapons">
+  <option value="Automatic Rifle">
+  <option value="Pistol">
+  <option value="Sniper">
+  <option value="Shotgun">
+  <option value="Sub-machine Gun">
+  <option value="Rocket Launcher">
+</datalist><br><br>
+
+Choose your difficulty: 
+<input list="difficulty" name="hardness" placeholder="Select from dropdown">
+<datalist id="difficulty">
+  <option value="Easy">
+  <option value="Normal">
+  <option value="Hard">
+  <option value="Nightmare">
+</datalist><br><br>
+
+<input type="submit" value="Click to submit form"> 
+</form>
+<br><br>
+
+
